@@ -12,10 +12,11 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
   	<div class="navbar-header">
+  	<span class="nav-link"><a href="#">Space Crate</a></span>
     </div>
-    <span class="nav-link"><a href="#about">About</a></span>
+    <span class="nav-link"><a href="#order">Order Now</a></span>
     <span class="nav-link"><a href="#what">What You'll Receive</a></span>
-    <span class="nav-link"><a href="#order">Order Now</a></span>    
+    <span class="nav-link"><a href="#about">About</a></span>    
   </div>
 </nav>
 
@@ -56,13 +57,56 @@
 	    <h2 class="center">How to order</h2>
 	     <hr />
 	    <div class="col-md-5">
-	      <img class="featurette-image img-responsive center-block carditem" src="images/laptop.jpg" alt="Pool">
+	      <img class="featurette-image img-responsive center-block" src="images/laptop.jpg" alt="Pool">
 	    </div>
 	   <div class="card">
-	    <p class="lead carditem">Please complete the form below and your box will be on its way!</p>
+	    <p class="lead ">Please complete the form below and your box will be on its way!</p>
 	  </div>
     </div>
   </div>
-	
+  <div class="formstyle center-block">
+	  <form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleSelect1">How many Space Crates would you like to receive?</label>
+	    <select class="form-control" id="exampleSelect1">
+	      <option>1</option>
+	      <option>2</option>
+	      <option>3</option>
+	      <option>4</option>
+	      <option>5</option>
+	    </select>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleSelect1">How often would you like to receive your Space Crate?</label>
+	    <select class="form-control" id="exampleSelect1">
+	      <option>Weekly</option>
+	      <option>Biweekly</option>
+	      <option>Monthly</option>
+	      <option>Quarterly</option>
+	      <option>Yearly</option>
+	    </select>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleTextarea">Any special requests?</label>
+	    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+	  </div>
+	  <div class="form-check">
+	    <label class="form-check-label">
+	      <input type="checkbox" class="form-check-input">
+	      Join the Space Crate newsletter?
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
 </body>
 </html>

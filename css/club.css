@@ -90,6 +90,11 @@ hr {
 	padding: 0 1%;
 }
 
+.formstyle {
+	width: 50%;
+	padding-top: 60px !important;
+}
+
 #tagline {
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif !important;
